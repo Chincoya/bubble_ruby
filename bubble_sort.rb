@@ -34,6 +34,6 @@ def bubble_sort_by(arr)
   arr
 end
 
-arr = [5, 4, 3, 2, 1]
-print bubble_sort(arr)
-print bubble_sort_by(arr) { |x, y| y - x }
+# arr = [5, 4, 3, 2, 1]
+# print bubble_sort(arr)
+# print bubble_sort_by(arr) { |x, y| y - x }
