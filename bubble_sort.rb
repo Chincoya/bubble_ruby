@@ -17,7 +17,7 @@ def bubble_sort(arr)
 end
 
 def bubble_sort_by(arr)
-  return "No block given!!!" unless block_given?
+  return "No block given!" unless block_given?
 
   swapped = true
   while swapped
@@ -34,6 +34,6 @@ def bubble_sort_by(arr)
   arr
 end
 
-arr = [5, 4, 3, 2, 1]
-print bubble_sort_by(arr)
+# arr = [5, 4, 3, 2, 1]
+# print bubble_sort_by(arr)
 # print bubble_sort_by(arr) { |x, y| y - x }
