@@ -17,7 +17,7 @@ def bubble_sort(arr)
 end
 
 def bubble_sort_by(arr)
-  return "No block given!" unless block_given?
+  return 'No block given!' unless block_given?
 
   swapped = true
   while swapped
